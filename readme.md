@@ -58,3 +58,5 @@ insert into public.transaction(id, pre_check_id, status_id) values(2, 2, 2);
 select * from public.pre_check p
 join public.transaction t on p.id = t.pre_check_id;
 ```
+Содержимое таблиц:  
+![img.png](img.png)
